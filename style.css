@@ -1,0 +1,118 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+
+body {
+    background: #555353 ;
+}
+
+header {
+    display: block;
+    position: static;
+    height: 6rem;
+    background-color: #4091f5;
+}
+
+#titulo-principal {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+}
+
+main p {
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    margin: 4rem;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    width: 35%;
+    height: 10%;
+}
+
+ul li button {
+    font-size: 8rem;
+    margin: 0%;
+    padding: auto;
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+#soma{
+    background-color: rgb(6, 115, 209);
+}
+
+#soma:hover{
+    background-color: rgb(7, 65, 116);
+}
+
+#subtracao{
+    background-color: rgb(47, 196, 59);
+}
+
+#subtracao:hover{
+    background-color: rgb(11, 115, 20);
+}
+
+#multiplicacao{
+    background-color: rgb(148, 42, 42);
+}
+
+#multiplicacao:hover {
+    background-color: rgb(103, 12, 12);
+}
+
+#divisao{
+    background-color: rgb(237, 183, 56);
+}
+
+#divisao:hover{
+    background-color: rgb(145, 103, 3);
+}
+
+ul li button:hover {
+    background-color: rgb(2, 155, 155);
+}
+
+ul li button:active {
+    width: 98%;
+    height: 90%;
+}
+
+.calculo{
+    display: inline-block;
+    text-align: center;
+    font-size: 10rem;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 15rem;
+}
+
+#resposta {
+    width: 20rem;
+    height: 8rem;
+    margin: 20px;
+    font-size: 8rem;
+}
+
+#botaoResponder{
+    width: 15rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-left: 53.7rem;
+    margin-top: 1rem;
+}
+
+ 

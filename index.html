@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Treinar Matemática</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="titulo-principal">Exercícios de Matemática</h1>
+        </header>
+        <main>
+            <p>Escolha uma Operação para começar!</p>
+
+            <ul>
+                <li><button id="soma" onclick="soma()">+</button></li>
+                <li><button id="subtracao" onclick="subtracao()">–</button></li>
+                <li><button id="multiplicacao" onclick="multiplicacao()">×</button></li>
+                <li><button id="divisao" onclick="divisao()">÷</button></li>
+            </ul>
+
+            <div class="calculo">
+                <label id="n1"></label>
+                <label id="operacao"></label>
+                <label id="n2"></label>
+                <label id="simboloIgual"></label>
+            
+                <input type="text" id="resposta">
+            </div>
+
+            <button id="botaoResponder" onclick="verificaResultado()">Responder</button>
+    
+        </main>
+        <footer>
+
+        </footer>
+        <script src="functions.js"></script>
+    </body>
+</html>
