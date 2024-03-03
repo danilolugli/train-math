@@ -50,23 +50,23 @@ ul li button {
     height: 100%;
 }
 
-#soma{
+#soma {
     background-color: rgb(6, 115, 209);
 }
 
-#soma:hover{
+#soma:hover {
     background-color: rgb(7, 65, 116);
 }
 
-#subtracao{
+#subtracao {
     background-color: rgb(47, 196, 59);
 }
 
-#subtracao:hover{
+#subtracao:hover {
     background-color: rgb(11, 115, 20);
 }
 
-#multiplicacao{
+#multiplicacao {
     background-color: rgb(148, 42, 42);
 }
 
@@ -74,11 +74,11 @@ ul li button {
     background-color: rgb(103, 12, 12);
 }
 
-#divisao{
+#divisao {
     background-color: rgb(237, 183, 56);
 }
 
-#divisao:hover{
+#divisao:hover {
     background-color: rgb(145, 103, 3);
 }
 
@@ -91,13 +91,14 @@ ul li button:active {
     height: 90%;
 }
 
-.calculo{
-    display: inline-block;
+.calculo {
+    display: flex;
+    align-content: center;
     text-align: center;
     font-size: 10rem;
     color: white;
-    margin-top: 4rem;
-    margin-left: 15rem;
+    margin-left: 20%;
+    padding: 0;
 }
 
 #resposta {
@@ -105,14 +106,18 @@ ul li button:active {
     height: 8rem;
     margin: 20px;
     font-size: 8rem;
+    text-align: center;
+    display: none;
 }
 
-#botaoResponder{
+#botaoResponder {
+    text-align: center;
+    align-content: center;
     width: 15rem;
     height: 4rem;
     font-size: 2rem;
-    margin-left: 53.7rem;
+    margin-left: 30%;
     margin-top: 1rem;
+    padding: 0;
+    display: none;
 }
-
- 
